@@ -1,0 +1,11 @@
+nav {
+  background: linear-gradient(-45deg, #4ea8de, #64dfdf);
+  display: flex;
+  padding: 2.5rem;
+  justify-content: space-evenly;
+}
+
+.navbar-ico {
+  width: 5.5rem;
+  height: 5.5rem;
+}

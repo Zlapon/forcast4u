@@ -1,0 +1,27 @@
+.weathercurrent {
+  width: 65rem;
+  height: 30rem;
+  background-color: #9469ba;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+.weathercurrent-title {
+  display: flex;
+}
+.weathercurrent-temp {
+  font-size: 40px;
+}
+
+.weathercurrent-info {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  
+}
+@media (max-width: 715px) {
+  .weathercurrent {
+    gap: 8rem;
+  }
+}

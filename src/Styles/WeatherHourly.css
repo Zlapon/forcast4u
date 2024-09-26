@@ -1,0 +1,44 @@
+.weatherhourly {
+  display: flex;
+  margin: auto;
+  margin-top: 20rem;
+  width: 75rem;
+  height: 20rem;
+  background-color: #a37cc6;
+  overflow-x: scroll;
+}
+.weatherhourly-hour {
+  height: 100%;
+  flex: 0 0 auto;
+  width: 20%;
+  border-right: rgb(146, 139, 147) solid 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.weatherhourly-hour:last-child {
+  border-right: none;
+}
+.weatherhourly-title {
+  font-size: 2rem;
+}
+.weatherhourly-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+@media (max-width: 1000px) {
+  .weatherhourly-hour {
+    gap: 2rem;
+  }
+}
+@media (max-width: 550px) {
+  .weatherhourly-hour {
+    width: 15rem;
+  }
+}
+@media (max-width: 500px) {
+  .weatherhourly-hour {
+    gap: 0;
+  }
+}
